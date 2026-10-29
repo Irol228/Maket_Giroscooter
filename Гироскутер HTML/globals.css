@@ -1,0 +1,48 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0px;
+  min-height: 100%;
+}
+/* a blue color as a generic focus style */
+button:focus-visible {
+  outline: 2px solid #4a90e2 !important;
+  outline: -webkit-focus-ring-color auto 5px !important;
+}
+a {
+  text-decoration: none;
+}
+/* @FONTWARNING[{"type": "restricted", "family": "Alan Sans-Regular", "weight": "400", "style": "normal", "allowsCrossOrigin": false}] */
+
+@font-face {
+  font-family: "Alan Sans-Regular";
+  src: local("Alan Sans-Regular");
+}
+/* @FONTWARNING[{"type": "restricted", "family": "Alan Sans-Bold", "weight": "700", "style": "normal", "allowsCrossOrigin": false}] */
+
+@font-face {
+  font-family: "Alan Sans-Bold";
+  src: local("Alan Sans-Bold");
+}
+/* @FONTWARNING[{"type": "restricted", "family": "Alan Sans-Light", "weight": "300", "style": "normal", "allowsCrossOrigin": false}] */
+
+@font-face {
+  font-family: "Alan Sans-Light";
+  src: local("Alan Sans-Light");
+}
+/* @FONTWARNING[{"type": "restricted", "family": "Alan Sans-SemiBold", "weight": "600", "style": "normal", "allowsCrossOrigin": false}] */
+
+@font-face {
+  font-family: "Alan Sans-SemiBold";
+  src: local("Alan Sans-SemiBold");
+}
+/* @FONTWARNING[{"type": "restricted", "family": "Roboto-LightItalic", "weight": "300", "style": "italic", "allowsCrossOrigin": false}] */
+
+@font-face {
+  font-family: "Roboto-LightItalic";
+  src: local("Roboto-LightItalic");
+}
