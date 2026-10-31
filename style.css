@@ -1,0 +1,1261 @@
+.screen {
+  background-color: #ffffff;
+  width: 100%;
+  min-width: 1920px;
+  min-height: 5072px;
+  display: flex;
+  flex-direction: column;
+}
+
+.screen .view {
+  width: 1920px;
+  height: 1001px;
+  position: relative;
+}
+
+.screen .scooter {
+  position: absolute;
+  width: 100%;
+  top: 124px;
+  left: 0;
+  height: 877px;
+  object-fit: cover;
+}
+
+.screen .rectangle {
+  position: absolute;
+  width: 100%;
+  top: 124px;
+  left: 0;
+  height: 877px;
+  background-color: #000000b2;
+}
+
+.screen .text-wrapper {
+  position: absolute;
+  width: calc(100% - 1491px);
+  top: 0;
+  left: 393px;
+  height: 62px;
+  display: flex;
+  align-items: center;
+  font-family: "Alan Sans-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .div-wrapper {
+  position: absolute;
+  top: 13px;
+  left: 1327px;
+  width: 200px;
+  height: 37px;
+  display: flex;
+  background-color: #ffa019;
+  border-radius: 5px;
+}
+
+.screen .div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 37px;
+  font-family: "Alan Sans-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .line {
+  position: absolute;
+  top: 59px;
+  left: 0;
+  width: 1920px;
+  height: 2px;
+}
+
+.screen .text-wrapper-2 {
+  position: absolute;
+  top: 62px;
+  left: 393px;
+  width: 120px;
+  height: 62px;
+  display: flex;
+  align-items: center;
+  font-family: "Alan Sans-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .p {
+  position: absolute;
+  top: 62px;
+  left: 925px;
+  width: 602px;
+  height: 62px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-family: "Alan Sans-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 14px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .text-wrapper-3 {
+  position: absolute;
+  top: 420px;
+  left: 857px;
+  height: 73px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Alan Sans-Light", Helvetica;
+  font-weight: 300;
+  color: #ffffff;
+  font-size: 56px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .text-wrapper-4 {
+  top: 530px;
+  left: 597px;
+  width: 725px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Alan Sans-Light", Helvetica;
+  font-weight: 300;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  line-height: 30px;
+  white-space: nowrap;
+  position: absolute;
+  letter-spacing: 0;
+}
+
+.screen .view-2 {
+  position: absolute;
+  top: 600px;
+  left: 900px;
+  width: 120px;
+  height: 40px;
+  display: flex;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+.screen .text-wrapper-5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  height: 40px;
+  font-family: "Alan Sans-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .view-3 {
+  width: 1920px;
+  height: 700px;
+  position: relative;
+}
+
+.screen .text-wrapper-6 {
+  position: absolute;
+  top: 0;
+  left: 393px;
+  width: 1134px;
+  height: 360px;
+  display: flex;
+  align-items: center;
+  font-family: "Alan Sans-Light", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 34px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .polygon {
+  left: 1504px;
+  position: absolute;
+  top: 167px;
+  width: 22px;
+  height: 26px;
+  aspect-ratio: 1;
+}
+
+.screen .img {
+  left: 1469px;
+  position: absolute;
+  top: 167px;
+  width: 22px;
+  height: 26px;
+  aspect-ratio: 1;
+}
+
+.screen .view-4 {
+  position: absolute;
+  top: 360px;
+  left: 393px;
+  width: 1134px;
+  height: 173px;
+}
+
+.screen .text-wrapper-7 {
+  position: absolute;
+  top: 147px;
+  left: 47px;
+  height: 26px;
+  display: flex;
+  align-items: center;
+  font-family: "Alan Sans-Light", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .element-kachestvo {
+  position: absolute;
+  top: 6px;
+  left: 67px;
+  width: 136px;
+  height: 120px;
+  aspect-ratio: 1.13;
+  object-fit: cover;
+}
+
+.screen .text-wrapper-8 {
+  position: absolute;
+  top: 147px;
+  left: 342px;
+  height: 26px;
+  display: flex;
+  align-items: center;
+  font-family: "Alan Sans-Light", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .bistraya-dostavka {
+  position: absolute;
+  top: 6px;
+  left: 358px;
+  width: 136px;
+  height: 120px;
+  aspect-ratio: 1.13;
+  object-fit: cover;
+}
+
+.screen .bolshoy-assortiment {
+  position: absolute;
+  top: 0;
+  left: 649px;
+  width: 136px;
+  height: 120px;
+  aspect-ratio: 1.13;
+  object-fit: cover;
+}
+
+.screen .consultant {
+  position: absolute;
+  top: 0;
+  left: 940px;
+  width: 136px;
+  height: 120px;
+  aspect-ratio: 1.13;
+  object-fit: cover;
+}
+
+.screen .text-wrapper-9 {
+  position: absolute;
+  top: 147px;
+  left: 610px;
+  height: 26px;
+  display: flex;
+  align-items: center;
+  font-family: "Alan Sans-Light", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .text-wrapper-10 {
+  position: absolute;
+  top: 147px;
+  left: 909px;
+  height: 26px;
+  display: flex;
+  align-items: center;
+  font-family: "Alan Sans-Light", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .view-5 {
+  width: 1920px;
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+}
+
+.screen .text-wrapper-11 {
+  margin-left: 393px;
+  width: 1134px;
+  height: 100px;
+  margin-top: -1px;
+  font-family: "Alan Sans-Light", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 34px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .text-wrapper-12 {
+  margin-left: 393px;
+  width: 1134px;
+  height: 90px;
+  font-family: "Alan Sans-Light", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 30px;
+}
+
+.screen .text-wrapper-13 {
+  margin-left: 392px;
+  width: 1135px;
+  height: 160px;
+  font-family: "Alan Sans-Light", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 30px;
+}
+
+.screen .frame {
+  width: 1920px;
+  display: flex;
+  background-color: #ffa019;
+}
+
+.screen .text-wrapper-14 {
+  display: flex;
+  align-items: center;
+  margin-top: 2px;
+  width: 307px;
+  height: 94px;
+  margin-left: 393px;
+  font-family: "Alan Sans-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 18px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: 30px;
+}
+
+.screen .frame-2 {
+  margin: 24px 0 24px 80px;
+  width: 220px;
+  display: flex;
+  border: 1px solid;
+  border-color: #ffffff;
+}
+
+.screen .text-wrapper-15 {
+  display: flex;
+  align-items: center;
+  width: 220px;
+  height: 46px;
+  font-family: "Alan Sans-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 30px;
+}
+
+.screen .frame-3 {
+  margin: 24px 0 24px 30px;
+  width: 220px;
+  display: flex;
+  border: 1px solid;
+  border-color: #ffffff;
+}
+
+.screen .text-wrapper-16 {
+  display: flex;
+  align-items: center;
+  width: 220px;
+  height: 46px;
+  font-family: "Alan Sans-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 30px;
+}
+
+.screen .frame-4 {
+  margin: 24px 0 24px 30px;
+  width: 250px;
+  display: flex;
+  background-color: #d9d9d9;
+}
+
+.screen .text-wrapper-17 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 250px;
+  height: 46px;
+  font-family: "Alan Sans-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 30px;
+}
+
+.screen .view-6 {
+  width: 1920px;
+  height: 400px;
+  position: relative;
+}
+
+.screen .text-wrapper-18 {
+  position: absolute;
+  top: 0;
+  left: 393px;
+  width: 1134px;
+  font-family: "Alan Sans-Light", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 34px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .text-wrapper-19 {
+  position: absolute;
+  top: 100px;
+  left: 393px;
+  width: 388px;
+  font-family: "Alan Sans-Light", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .auto-flex {
+  height: 120px;
+  top: 99px;
+  left: 781px;
+  min-width: 746px;
+  position: absolute;
+  display: flex;
+  align-items: flex-start;
+}
+
+.screen .flexcontainer {
+  position: relative;
+  gap: 3px;
+  width: 388px;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.screen .text {
+  position: relative;
+  align-self: stretch;
+  font-family: "Alan Sans-Light", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .span {
+  font-family: "Alan Sans-Light", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+}
+
+.screen .flexcontainer-2 {
+  position: relative;
+  gap: 3px;
+  width: 358px;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.screen .text-wrapper-20 {
+  position: absolute;
+  top: 250px;
+  left: 393px;
+  width: 1134px;
+  font-family: "Alan Sans-Light", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .view-7 {
+  width: 1920px;
+  height: 650px;
+  position: relative;
+}
+
+.screen .text-wrapper-21 {
+  position: absolute;
+  top: 0;
+  left: 393px;
+  width: 679px;
+  font-family: "Alan Sans-Light", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 34px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .view-8 {
+  position: absolute;
+  top: 0;
+  left: 1072px;
+  width: 455px;
+  height: 150px;
+}
+
+.screen .text-wrapper-22 {
+  position: absolute;
+  top: 0;
+  left: 388px;
+  width: 67px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Alan Sans-Light", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .text-wrapper-23 {
+  position: absolute;
+  top: 0;
+  left: 233px;
+  width: 155px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  font-family: "Alan Sans-Light", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .text-wrapper-24 {
+  position: absolute;
+  top: 0;
+  left: 105px;
+  width: 128px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Alan Sans-Light", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .rectangle-2 {
+  position: absolute;
+  top: 10px;
+  left: 45px;
+  width: 60px;
+  height: 30px;
+  background-color: #ffa019;
+  border-radius: 20px;
+}
+
+.screen .text-wrapper-25 {
+  position: absolute;
+  top: 0;
+  left: 45px;
+  width: 60px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Alan Sans-Light", Helvetica;
+  font-weight: 300;
+  color: #ffffff;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .view-9 {
+  position: absolute;
+  top: 150px;
+  left: 393px;
+  width: 261px;
+  height: 316px;
+  overflow: hidden;
+}
+
+.screen .element {
+  position: absolute;
+  top: 37px;
+  left: 67px;
+  width: 194px;
+  height: 194px;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.screen .rectangle-3 {
+  position: absolute;
+  top: 0;
+  left: -15px;
+  width: 97px;
+  height: 30px;
+  background-color: #ffa019;
+  border-radius: 15px;
+}
+
+.screen .text-wrapper-26 {
+  position: absolute;
+  top: 1px;
+  left: 0;
+  width: 67px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Alan Sans-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .text-wrapper-27 {
+  position: absolute;
+  top: 231px;
+  left: 45px;
+  width: 216px;
+  font-family: "Alan Sans-Light", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .text-wrapper-28 {
+  position: absolute;
+  top: 291px;
+  left: 45px;
+  width: 216px;
+  font-family: "Alan Sans-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .view-10 {
+  position: absolute;
+  top: 150px;
+  left: 684px;
+  width: 261px;
+  height: 316px;
+  overflow: hidden;
+}
+
+.screen .rectangle-4 {
+  width: 127px;
+  position: absolute;
+  top: 0;
+  left: -15px;
+  height: 30px;
+  background-color: #ffa019;
+  border-radius: 15px;
+}
+
+.screen .text-wrapper-29 {
+  position: absolute;
+  top: 1px;
+  left: 0;
+  width: 97px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Alan Sans-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .view-11 {
+  position: absolute;
+  top: 150px;
+  left: 975px;
+  width: 261px;
+  height: 316px;
+  overflow: hidden;
+}
+
+.screen .element-2 {
+  position: absolute;
+  top: 36px;
+  left: 66px;
+  width: 195px;
+  height: 195px;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.screen .rectangle-5 {
+  width: 161px;
+  position: absolute;
+  top: 0;
+  left: -15px;
+  height: 30px;
+  background-color: #ffa019;
+  border-radius: 15px;
+}
+
+.screen .text-wrapper-30 {
+  position: absolute;
+  top: 1px;
+  left: 0;
+  width: 133px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Alan Sans-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .element-3 {
+  position: absolute;
+  top: 151px;
+  left: 1266px;
+  width: 261px;
+  height: 316px;
+  overflow: hidden;
+}
+
+.screen .view-12 {
+  width: 1920px;
+  height: 500px;
+  position: relative;
+}
+
+.screen .view-13 {
+  position: absolute;
+  top: 150px;
+  left: 393px;
+  width: 358px;
+  height: 210px;
+}
+
+.screen .element-4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 164px;
+  height: 210px;
+  object-fit: cover;
+}
+
+.screen .text-wrapper-31 {
+  position: absolute;
+  top: 26px;
+  left: 194px;
+  width: 164px;
+  font-family: "Alan Sans-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .text-wrapper-32 {
+  top: 56px;
+  left: 194px;
+  width: 164px;
+  font-family: "Roboto-LightItalic", Helvetica;
+  font-weight: 300;
+  font-style: italic;
+  color: #000000;
+  font-size: 12px;
+  line-height: normal;
+  position: absolute;
+  letter-spacing: 0;
+}
+
+.screen .rectangle-6 {
+  position: absolute;
+  top: 94px;
+  left: 194px;
+  width: 84px;
+  height: 32px;
+  background-color: #ffa019;
+  border-radius: 10px;
+}
+
+.screen .text-wrapper-33 {
+  top: 94px;
+  left: 195px;
+  width: 81px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Alan Sans-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 10px;
+  text-align: center;
+  line-height: normal;
+  position: absolute;
+  letter-spacing: 0;
+}
+
+.screen .view-14 {
+  position: absolute;
+  top: 150px;
+  left: 781px;
+  width: 358px;
+  height: 210px;
+}
+
+.screen .element-5 {
+  position: absolute;
+  top: 0;
+  left: -30px;
+  width: 164px;
+  height: 210px;
+  object-fit: cover;
+}
+
+.screen .view-15 {
+  position: absolute;
+  top: 150px;
+  left: 1169px;
+  width: 358px;
+  height: 210px;
+}
+
+.screen .element-6 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 164px;
+  height: 210px;
+}
+
+.screen .frame-5 {
+  width: 1920px;
+  display: flex;
+}
+
+.screen .text-wrapper-34 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 274px;
+  height: 194px;
+  font-family: "Alan Sans-Bold", Helvetica;
+  font-weight: 700;
+  color: #9b9b9b;
+  font-size: 50px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .text-wrapper-35 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 275px;
+  height: 194px;
+  font-family: "Alan Sans-Bold", Helvetica;
+  font-weight: 700;
+  color: #9b9b9b;
+  font-size: 50px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .view-16 {
+  width: 1920px;
+  height: 600px;
+  position: relative;
+}
+
+.screen .text-wrapper-36 {
+  position: absolute;
+  top: 0;
+  left: 393px;
+  width: 1134px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  font-family: "Alan Sans-Light", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 34px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .view-17 {
+  position: absolute;
+  top: 200px;
+  left: 393px;
+  width: 261px;
+  height: 261px;
+  background-image: url(./img/Гиро1.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.screen .rectangle-7 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 261px;
+  height: 261px;
+  background-color: #00000080;
+}
+
+.screen .flexcontainer-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  position: absolute;
+  width: 261px;
+  height: 261px;
+  top: -1px;
+  left: 0;
+}
+
+.screen .span-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  font-family: "Alan Sans-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .text-wrapper-37 {
+  font-family: "Alan Sans-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+}
+
+.screen .view-18 {
+  position: absolute;
+  top: 200px;
+  left: 684px;
+  width: 261px;
+  height: 261px;
+  background-image: url(./img/Самокат.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.screen .flexcontainer-4 {
+  gap: 10px;
+  position: absolute;
+  width: 260px;
+  height: 261px;
+  top: -1px;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.screen .text-2 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  font-family: "Alan Sans-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 17px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .text-wrapper-38 {
+  font-family: "Alan Sans-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 17px;
+  letter-spacing: 0;
+}
+
+.screen .view-19 {
+  position: absolute;
+  top: 200px;
+  left: 975px;
+  width: 261px;
+  height: 261px;
+  background-image: url(./img/Сигвей.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.screen .element-7 {
+  position: absolute;
+  top: 200px;
+  left: 1266px;
+  width: 261px;
+  height: 261px;
+  background-image: url(./img/Гиро2.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.screen .text-wrapper-39 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 261px;
+  height: 261px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Alan Sans-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .view-20 {
+  width: 1920px;
+  height: 477px;
+  position: relative;
+}
+
+.screen .flexcontainer-5 {
+  gap: 16px;
+  position: absolute;
+  width: 367px;
+  height: 153px;
+  top: 146px;
+  left: 393px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.screen .text-3 {
+  position: relative;
+  align-self: stretch;
+  font-family: "Alan Sans-Regular", Helvetica;
+  font-weight: 400;
+  color: #8191a6;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .text-wrapper-40 {
+  font-family: "Alan Sans-Regular", Helvetica;
+  font-weight: 400;
+  color: #8191a6;
+  font-size: 14px;
+  letter-spacing: 0;
+}
+
+.screen .text-wrapper-41 {
+  position: absolute;
+  top: 300px;
+  left: 393px;
+  width: 238px;
+  font-family: "Alan Sans-Regular", Helvetica;
+  font-weight: 400;
+  color: #8191a6;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .text-wrapper-42 {
+  position: absolute;
+  top: 147px;
+  left: 1363px;
+  width: 164px;
+  font-family: "Alan Sans-Bold", Helvetica;
+  font-weight: 700;
+  color: #303842;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .text-wrapper-43 {
+  position: absolute;
+  top: 147px;
+  left: 1169px;
+  width: 164px;
+  font-family: "Alan Sans-Bold", Helvetica;
+  font-weight: 700;
+  color: #303842;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .text-wrapper-44 {
+  position: absolute;
+  top: 147px;
+  left: 975px;
+  width: 164px;
+  font-family: "Alan Sans-Bold", Helvetica;
+  font-weight: 700;
+  color: #303842;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .auto {
+  height: 90px;
+  top: 186px;
+  left: 975px;
+  min-width: 552px;
+  gap: 30px;
+  position: absolute;
+  display: flex;
+  align-items: flex-start;
+}
+
+.screen .flexcontainer-6 {
+  position: relative;
+  gap: 6px;
+  width: 164px;
+  height: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.screen .text-4 {
+  position: relative;
+  align-self: stretch;
+  font-family: "Alan Sans-Regular", Helvetica;
+  font-weight: 400;
+  color: #8191a6;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .text-wrapper-45 {
+  font-family: "Alan Sans-Regular", Helvetica;
+  font-weight: 400;
+  color: #8191a6;
+  font-size: 13px;
+  letter-spacing: 0;
+}
